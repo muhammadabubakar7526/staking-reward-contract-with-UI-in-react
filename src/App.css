@@ -35,4 +35,309 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+.mint{
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+  background-color: #282c34;
+}
+#mint1{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 0px;
+
+  width: 300px;
+  border: 1px solid;
+}
+
+#mint2{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid;
+}
+.mintBtn{
+  height: 40px;
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  background-color: #282c34;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+/* staking starts here */
+.stake{
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: -300px;
+  margin-left: 650px;
+  display: flex;
+
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+  background-color: #282c34;
+}
+#stake1{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 0px;
+
+  width: 300px;
+  border: 1px solid;
+}
+
+#stake2{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid;
+}
+.stakeBtn{
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  background-color: #282c34;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/* claim  */
+.claim{
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: -300px;
+  margin-left: 650px;
+  display: flex;
+
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+  background-color: #282c34;
+}
+#stake1{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 0px;
+
+  width: 300px;
+  border: 1px solid;
+}
+
+#stake2{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid;
+}
+.claimBtn{
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  background-color: #282c34;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+
+/* unstake dic styling heres  */
+.unstake{
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-left: 30px;
+
+  display: flex;
+
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+  background-color: #282c34;
+}
+#unstake2{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 0px;
+
+  width: 300px;
+  border: 1px solid;
+}
+.unstakeBtn{
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  background-color: #282c34;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+button:hover{
+  cursor: pointer;
+  background-color: grey;
+
+}
+
+
+.all{
+  height: 750px;
+ 
+  border: 1px solid;
+  background-color: #282c34;
+}
+.reward{
+  height: 50px;
+  width: 300px;
+  /* border: 1px solid; */
+  
+}
+.totalStake{
+  height: 50px;
+  width: 300px;
+  /* border: 1px solid; */
+  
+}
+
+
+/* this is details page at the end  */
+.name{
+  height: 80px;
+  width: 200px;
+  display: flex;
+  border-radius: 7px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+margin-left: -600px;
+  float: left;
+  
+  border: 1px solid ;
+  background-color: transparent;
+}
+.symbol{
+  height: 80px;
+  width: 200px;
+  float: left;
+  display: flex;
+  margin-top: -80px;
+  margin-left: -10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 7px;
+  border: 1px solid ;
+  background-color: transparent;
+}
+.totalSupply{
+  height: 80px;
+  width: 200px;
+  float: left;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 7px;
+position: relative;
+left: 270px;
+top: -90px;
+  border: 1px solid ;
+  background-color: transparent;
+}
+.stakeAmount{
+  height: 80px;
+  width: 400px;
+  float: left;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 7px;
+  border: 1px solid ;
+  background-color: transparent;
+}
+
+.inner{
+  height: 400px;
+  width: 1100px;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #282c34;
+  
+}
+.btn1{
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+
+}
+.details{
+  height: 500px;
+  width: 100%;
+  margin-top: -29px;
+  /* border: 1px solid; */
+  background-color: #282c34;
+}
+.connect{
+  height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+  border: 1px solid;
+  background-color: #282c34;
+
+  
+}
+.cntBtn{
+  height: 50px;
+  width: 150px;
+  border: 1px solid;
+  background-color: #282c34;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+
+
 }
