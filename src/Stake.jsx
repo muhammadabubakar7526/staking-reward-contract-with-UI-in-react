@@ -21,7 +21,7 @@ const Stake = () => {
     const Contract = dollar.connect(signer);
     setLoading(true);
     await Contract.stake(amount);
-    setLoading(false);
+    setLoading(true);
 
   };
   return (
@@ -37,3 +37,9 @@ const Stake = () => {
   );
 };
 export default Stake;
+
+
+
+
+
+// 000000000000000000

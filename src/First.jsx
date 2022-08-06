@@ -23,11 +23,10 @@ const First = () => {
     setLoading(true);
     await Contract.mint(address, amount);
     setLoading(false);
-
   };
   return (
     <div className="mint">
-    <h1>MINT TtOKEN</h1>
+    <h1>MINT TOKEN</h1>
       <input placeholder="address" id="mint1"></input>
       <input placeholder="amount" id="mint2"></input>
       <button onClick={mintToken} className="mintBtn">
